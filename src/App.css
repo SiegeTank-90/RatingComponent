@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+div {
+  font-family: "Overpass";
+  color: white;
+}
+.ratingHeader {
+  font-size: 32px;
+}
+
+.ratingParagraph {
+  font-size: 20px;
+  line-height: px;
+  opacity: 50%;
+}
+
+.Container {
+  margin: 25% 37.5% 0;
+  background-color: hsl(213, 19%, 18%);
+  max-width: 750px;
+  border-radius: 25px;
+  padding: 1.25%;
+}
+.ContainerThankYou {
+  margin: 25% 37.5% 0;
+  background-color: hsl(213, 19%, 18%);
+  max-width: 750px;
+  border-radius: 25px;
+  padding: 1.25%;
+  text-align: center;
+}
+
+.starContainer {
+  border-radius: 100%;
+  background-color: hsla(217, 12%, 63%, 0.26);
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+.starIcon {
+  margin: 16.5px;
+}
+
+.submitButton {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  width: 100%;
+  height: 50px;
+  border-radius: 100px;
+  letter-spacing: 2px;
+}
+
+.submitButton:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+  width: 100%;
+  height: 50px;
+  border-radius: 100px;
+  letter-spacing: 2px;
+}
+
+.rating {
+  background-color: hsla(217, 12%, 63%);
+  border: none;
+  padding: 15px 20px;
+  border-radius: 75%;
+  font-size: 24px;
+  color: white;
+  opacity: 33%;
+  margin: 1.5%;
+}
+.rating:hover {
+  background-color: rgb(193, 204, 221);
+}
+
+.rating-active {
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  padding: 15px 20px;
+  border-radius: 75%;
+  font-size: 24px;
+  color: white;
+  opacity: 100%;
+  margin: 1.5%;
+}
+
+.ratingSelectorContainer {
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.scoreResult {
+  padding: 2.5px;
+  font-size: 16px;
+  color: hsl(25, 97%, 53%);
+}
+.scoreResultContainer {
+  margin: 1.5% 25%;
+  background-color: hsla(217, 12%, 63%, 0.33);
+  border-radius: 100px;
+}
+
+
+@media screen and (max-width: 1400px) {
+    .Container {
+        margin: 33% 30% 0;
+        background-color: hsl(213, 19%, 18%);
+        max-width: 375px;
+        border-radius: 25px;
+        padding: 1.25%;
+      }
+      .ContainerThankYou {
+        margin: 33% 30% 0;
+        background-color: hsl(213, 19%, 18%);
+        max-width: 375px;
+        border-radius: 25px;
+        padding: 1.25%;
+        text-align: center;
+      }
+      
+      .scoreResultContainer {
+        margin: 1.5% 15%;
+        background-color: hsla(217, 12%, 63%, 0.33);
+        border-radius: 100px;
+      }
+}
+
+
+@media screen and (max-width: 775px) {
+    .Container {
+        margin: 33% 25% 0;
+        background-color: hsl(213, 19%, 18%);
+        max-width: 375px;
+        border-radius: 25px;
+        padding: 1.25%;
+      }
+      .ContainerThankYou {
+        margin: 33% 25% 0;
+        background-color: hsl(213, 19%, 18%);
+        max-width: 375px;
+        border-radius: 25px;
+        padding: 1.25%;
+        text-align: center;
+      }
+
+      .scoreResultContainer {
+        margin: 1.5% 15%;
+        background-color: hsla(217, 12%, 63%, 0.33);
+        border-radius: 100px;
+      }
+      
+}
+
+
+
+@media screen and (max-width: 400px) {
+    .Container {
+        margin: 33% 5% 0;
+        background-color: hsl(213, 19%, 18%);
+        max-width: 375px;
+        border-radius: 25px;
+        padding: 1.25%;
+      }
+      .ContainerThankYou {
+        margin: 33% 5% 0;
+        background-color: hsl(213, 19%, 18%);
+        max-width: 375px;
+        border-radius: 25px;
+        padding: 1.25%;
+        text-align: center;
+      }
+      
+}
