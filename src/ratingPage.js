@@ -4,7 +4,6 @@ import starIcon from "./images/icon-star.svg";
 import RatingSelector from "./ratingSelector.js";
 
 function RatingPage(props) {
-
   let ratingsArray = [];
 
   for (let i = 1; i < 6; i++) {
@@ -17,10 +16,9 @@ function RatingPage(props) {
       />
     );
   }
-  
 
   return (
-    <div>
+    <div className="FlexContainer">
       <div className="Container">
         <div className="starContainer">
           <img className="starIcon" src={starIcon} alt="star icon"></img>
@@ -30,13 +28,10 @@ function RatingPage(props) {
           Please let us know how we did with your support request. All feedback
           is appreciated to help us improve our offering!
         </p>
-        <div>
-          <div className="ratingSelectorContainer">{ratingsArray}</div>
-        </div>
-        <button
-          className="submitButton"
-          onClick={() => props.setPage(1)}
-        >
+
+        <div className="ratingSelectorContainer">{ratingsArray}</div>
+
+        <button className="submitButton" onClick={() => props.setPage(1)}>
           SUBMIT
         </button>
       </div>

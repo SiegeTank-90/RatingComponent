@@ -3,7 +3,7 @@ import ThankYouImg from "./images/illustration-thank-you.svg";
 
 function ThankYouPage(props) {
   return (
-    <div>
+    <div className="FlexContainer">
       <div className="ContainerThankYou">
         <img src={ThankYouImg} alt="Thank You Img" />
         <div className="scoreResultContainer">
